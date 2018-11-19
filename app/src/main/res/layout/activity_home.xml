@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#57ede3"
+    tools:context=".HomeActivity">
+    <Button
+        android:id="@+id/nav_profile"
+        android:text="Profile"
+        android:fontFamily="@font/athena_of_the_ocean"
+        android:textSize="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/vaporwave6_1"/>
+    <Button
+        android:id="@+id/nav_new_post"
+        android:text="New Post"
+        android:fontFamily="@font/athena_of_the_ocean"
+        android:textSize="80dp"
+        android:background="@drawable/vaporwave6_2"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7dp"
+        android:layout_height="200dp"/>
+    <Button
+        android:id="@+id/nav_list_post"
+        android:text="List of Posts"
+        android:fontFamily="@font/athena_of_the_ocean"
+        android:textSize="80dp"
+        android:background="@drawable/vaporwave6_3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+</LinearLayout>

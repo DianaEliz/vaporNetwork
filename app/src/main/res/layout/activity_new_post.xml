@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".NewPostActivity"
+    android:background="@drawable/vaporwave4"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/add_foto_camera"
+        android:layout_width="80dp"
+        android:text="Add from camera"
+        android:background="@drawable/rounded"
+        android:layout_margin="6dp"
+        android:backgroundTint="#b4b966e2"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/add_foto_gallery"
+        android:layout_width="80dp"
+        android:layout_margin="6dp"
+        android:text="Add from gallery"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#b4b966e2"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/share_social_network"
+        android:text="Share in Social Network"
+        android:background="@drawable/rounded"
+        android:layout_margin="6dp"
+        android:layout_width="80dp"
+        android:backgroundTint="#b4b966e2"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/save_post"
+        android:text="Save the Post"
+        android:background="@drawable/rounded"
+        android:layout_margin="6dp"
+        android:layout_width="80dp"
+        android:backgroundTint="#b4b966e2"
+        android:layout_height="50dp" />
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/rounded"/>
+    <EditText
+        android:id="@+id/txt_description"
+        android:hint="Description"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#b45a5ed7"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/txt_location"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#b45a5ed7"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+</LinearLayout>

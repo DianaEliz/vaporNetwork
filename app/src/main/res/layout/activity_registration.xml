@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/vaporwave2"
+    tools:context=".RegistrationActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VaporNetwork"
+        android:textSize="100dp"
+        android:textColor="@color/colorTitle"
+        android:fontFamily="@font/athena_of_the_ocean"/>
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_margin="2dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#5effffff"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Password"
+        android:layout_margin="2dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#5effffff"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="2dp"
+        android:backgroundTint="#b45a5ed7"
+        android:background="@drawable/rounded"
+        android:text="Accept"
+
+        />
+</LinearLayout>

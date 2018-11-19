@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "827967656342",
+    "firebase_url": "https://ultimoproyecto-897f2.firebaseio.com",
+    "project_id": "ultimoproyecto-897f2",
+    "storage_bucket": "ultimoproyecto-897f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827967656342:android:5d8d5475c44653e4",
+        "android_client_info": {
+          "package_name": "com.example.diana.ultimoproyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827967656342-hmertvg1oj5svmq4mh8122r7g3quqbc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diana.ultimoproyecto",
+            "certificate_hash": "37adc0afbf250020a1f73f989b396c22b732e126"
+          }
+        },
+        {
+          "client_id": "827967656342-mmhj4afot65dvtkvqt5pqr5l52hbirpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtAxHNFwnM0RuUCbd5bR9RSo6ZO0HCE68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827967656342-mmhj4afot65dvtkvqt5pqr5l52hbirpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
