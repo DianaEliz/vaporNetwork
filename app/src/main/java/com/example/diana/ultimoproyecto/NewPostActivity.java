@@ -161,10 +161,11 @@ public class NewPostActivity extends AppCompatActivity implements View.OnClickLi
             @Override
             public void onClick(View view) {
                 String desc = txtDescription.getText().toString();
+                String loc = txtLocation.getText().toString();
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("*/*");
                 intent.putExtra(Intent.EXTRA_STREAM, uri);
-                intent.putExtra(Intent.EXTRA_TEXT, desc);
+                intent.putExtra(Intent.EXTRA_TEXT, "Description: " + desc+"." + " Location: " + loc);
                 startActivity(Intent.createChooser(intent, "Share using?"));
             }
 

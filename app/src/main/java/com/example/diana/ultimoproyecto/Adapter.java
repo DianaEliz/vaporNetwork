@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.PostViewHolder>{
@@ -32,8 +34,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.PostViewHolder>{
     public void onBindViewHolder(@NonNull PostViewHolder postViewHolder, int position) {
 
         Post post = posts.get(position);
-        postViewHolder.savDescription.setText(post.getDescription());
-        postViewHolder.savLocation.setText(post.getLocation());
+        postViewHolder.savDescription.setText("Description: " + post.getDescription());
+        postViewHolder.savLocation.setText("Location: " + post.getLocation());
+        Picasso.get().load(posts.get(position).getUrlFoto()).into(postViewHolder.savFoto);
     }
 
     @Override
@@ -49,7 +52,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.PostViewHolder>{
         public PostViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            //savFoto = itemView.findViewById(R.id.sav_foto);
+            savFoto = itemView.findViewById(R.id.sav_foto);
             savDescription = itemView.findViewById(R.id.txt_sav_description);
             savLocation = itemView.findViewById(R.id.txt_sav_location);
 

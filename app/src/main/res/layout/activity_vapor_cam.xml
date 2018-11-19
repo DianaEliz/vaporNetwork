@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/vaporwave"
+    android:orientation="vertical"
+    tools:context=".VaporCamActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="100dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/athena_of_the_ocean"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="VaporCam is a place to express yourself by photos and images. It's where you can save and share you works."
+        android:backgroundTint="#5effffff"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/athena_of_the_ocean"
+        />
+</LinearLayout>

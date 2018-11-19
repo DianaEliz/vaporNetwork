@@ -9,63 +9,83 @@
     tools:context=".NewPostActivity"
     android:background="@drawable/vaporwave4"
     android:orientation="vertical">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="70dp"
-    android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/add_foto_camera"
-        android:layout_width="80dp"
-        android:text="Add from camera"
-        android:background="@drawable/rounded"
-        android:layout_margin="6dp"
-        android:backgroundTint="#b4b966e2"
-        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/add_foto_gallery"
-        android:layout_width="80dp"
-        android:layout_margin="6dp"
-        android:text="Add from gallery"
-        android:background="@drawable/rounded"
-        android:backgroundTint="#b4b966e2"
-        android:layout_height="50dp" />
-    <Button
-        android:id="@+id/share_social_network"
-        android:text="Share in Social Network"
-        android:background="@drawable/rounded"
-        android:layout_margin="6dp"
-        android:layout_width="80dp"
-        android:backgroundTint="#b4b966e2"
-        android:layout_height="50dp" />
-    <Button
-        android:id="@+id/save_post"
-        android:text="Save the Post"
-        android:background="@drawable/rounded"
-        android:layout_margin="6dp"
-        android:layout_width="80dp"
-        android:backgroundTint="#b4b966e2"
-        android:layout_height="50dp" />
+        <Button
+            android:id="@+id/add_foto_camera"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#97b966e2"
+            android:fontFamily="@font/athena_of_the_ocean"
+            android:text="Add from camera"
+            android:textSize="18dp" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/add_foto_gallery"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#97b966e2"
+            android:fontFamily="@font/athena_of_the_ocean"
+            android:text="Add from gallery"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/share_social_network"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#97b966e2"
+            android:fontFamily="@font/athena_of_the_ocean"
+            android:text="Share in Social Network"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/save_post"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_margin="9dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#97b966e2"
+            android:fontFamily="@font/athena_of_the_ocean"
+            android:text="Save the Post"
+            android:textSize="18dp" />
+
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/foto"
         android:layout_width="300dp"
         android:layout_height="300dp"
+        android:backgroundTint="#7bdff1ec"
+        android:layout_margin="4dp"
+        android:layout_gravity="center"
         android:background="@drawable/rounded"/>
+
     <EditText
         android:id="@+id/txt_description"
-        android:hint="Description"
+        android:layout_width="244dp"
+        android:layout_height="84dp"
+        android:layout_margin="2dp"
         android:background="@drawable/rounded"
-        android:backgroundTint="#b45a5ed7"
-        android:layout_width="200dp"
-        android:layout_height="50dp" />
+        android:backgroundTint="#965a5ed7"
+        android:gravity="center"
+        android:hint="Description" />
+
     <TextView
         android:id="@+id/txt_location"
+        android:layout_width="268dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="2dp"
         android:background="@drawable/rounded"
-        android:backgroundTint="#b45a5ed7"
-        android:layout_width="200dp"
-        android:layout_height="50dp" />
+        android:backgroundTint="#965a5ed7" />
 </LinearLayout>

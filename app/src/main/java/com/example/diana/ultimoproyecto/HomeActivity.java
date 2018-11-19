@@ -28,8 +28,8 @@ public class HomeActivity extends AppCompatActivity{
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(HomeActivity.this, "Profile", Toast.LENGTH_LONG).show();
-
+                Intent intent = new Intent(HomeActivity.this, VaporCamActivity.class);
+                startActivity(intent);
             }
         });
         newPost = findViewById(R.id.nav_new_post);

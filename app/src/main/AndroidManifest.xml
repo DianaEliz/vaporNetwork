@@ -26,7 +26,8 @@
         <activity android:name=".NewPostActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".PostListActivity"></activity>
+        <activity android:name=".PostListActivity" />
+        <activity android:name=".VaporCamActivity"></activity>
     </application>
 
 </manifest>
